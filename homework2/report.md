@@ -151,14 +151,14 @@ int main(){
 ## 效能分析
 
 ### 時間複雜度
-1. Add:$O(n+m)$n、m 為兩多項式項數
-2. Mult:$O(nm*k)$k 為暫時結果項數
-3. Eval:$O(n)$
+1. Add: $O(n+m)$ n、m 為兩多項式項數
+2. Mult: $O(nm*k)$ k 為暫時結果項數
+3. Eval: $O(n)$
 
 ### 空間複雜度
-1. Add:$O(n+m)$
-2. Mult:$O(nm)$
-3. Eval:$O(1)$
+1. Add: $O(n+m)$
+2. Mult: $O(nm)$
+3. Eval: $O(1)$
    
 ## 測試與驗證
 
