@@ -156,7 +156,6 @@ public:
         }
         return is;
     }
-    // 下面做「有符號格式」：第一項不印 '+'，後面正數印 '+'
     friend ostream& operator<<(ostream& os, const Polynomial& x) {
         TermNode* p = x.header->link;
         if (p == x.header) {//沒有任何項
@@ -265,5 +264,8 @@ int main() {
     cout << "A+B=" << (A + B) << "\n";
     cout << "A-B=" << (A - B) << "\n";
     cout << "A*B=" << (A * B) << "\n";
+    float a;
+    cin >> a;
+    cout << "E(" << a << ")=" << A.Evaluate(a) << "\n";
     return 0;
 }
